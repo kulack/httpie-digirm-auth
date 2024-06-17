@@ -1,2 +1,0 @@
-[httpie.plugins.auth.v1]
-httpie_digirm_auth = httpie_digirm_auth:DigiRMAuthPlugin

@@ -8,7 +8,7 @@ setup(
     name='httpie-digirm-auth',
     description='DigiRM plugin for HTTPie.',
     long_description=open('README.rst').read().strip(),
-    version='0.2.0',
+    version='0.3.0',
     author='Fred A Kulack',
     author_email='kulack@gmail.com',
     license='MIT',

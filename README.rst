@@ -41,6 +41,6 @@ You can omit the ``--auth`` parameter and specify the API key ID and secret in t
 Compatibility
 -------------
 
-Currently only Digi Remote Manager API key authentication is supported. To use basic auth, simply use the built-in HTTPie basic auth plugin.
+Attempts to recognize Digi Remote Manager API key authentication and falls back to basic auth if the key is not a Digi Remote Manager API key.
 
 In the API key authentication scheme the API key ID and API key secret are used in the ``X-API-KEY-ID`` and ``X-API-KEY-SECRET`` headers respectively.
